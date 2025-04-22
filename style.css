@@ -40,12 +40,12 @@ html, body, #container {
     cursor: pointer;
     transition: background-color 0.5s;
     color: rgb(255, 255, 255);
-    box-shadow: 0 0 10px #ff81e8;
+    box-shadow: 0 0 10px #e1e1e1;
 }
 #toggleButton:hover {
-    background-color: rgba(255, 0, 255, 0.368); 
+    background-color: #ff81e8;
     color: #000;
-    box-shadow: 0 0 10px rgba(2, 150, 42, 0.501);
+    box-shadow: 0 0 10px #f08809;
     transform: scale(1.15);
     transition: transform 0.3s, background-color 0.5s, color 0.5s, box-shadow 0.5s;
 }
